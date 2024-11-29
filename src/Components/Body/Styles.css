@@ -6,22 +6,23 @@ html, body {
 }
 /* Estilo global para o container principal */ 
 .container {
-    height: 100vh; /* Altura total da tela */
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Espaça o body e o footer */
-    background-image: url('../../assets/teste.jpg'); /* Caminho da imagem de fundo */
-    background-size: cover; /* Faz a imagem preencher o container */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
+    flex-direction: column; /* Organiza os filhos verticalmente */
+    justify-content: flex-start; /* Começa do topo */
+    height: 100vh; /* Altura da tela completa */
+    background-image: url('../../assets/teste.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.container-body{
+.container-body {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    height: 5rem;
+    height: 5rem; 
     align-items: center;
+    padding: 10px 0; 
 }
 .container-1{
     display: flex;
@@ -47,7 +48,6 @@ html, body {
 .vetra-title{
     display: flex;
     font-weight: bold;
-    
     color: #ff8142;
 }
 .container-2{
@@ -113,9 +113,115 @@ h5:hover{
     color: white;
     transition: transform 0.3s ease; 
 }
+.title-container-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5rem 0 0 5rem;
+}
+.smart-title {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #ff8142;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+}
+.grow-title{
+    color: #ff8142;
+    letter-spacing: 0.1rem;
+    padding: 1rem 0 2rem 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-us-button{
+    background-color: #ff8142;
+    border-radius: 5rem;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    height: 3.5rem;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    border: none;
+}
+.contact-us-button:hover{
+    transform: scale(1.1);
+}
 button:hover{
     transform: scale(1.1);
 }
-  
+.button-menu{
+    display: none;
+}  
+.container-image{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:320px) and (max-width:479px){
+    .vetra-logo{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .vetra-title{
+        display: none;
+    }
+    .container-1{
+        justify-content: flex-start;
+        padding: 0 0 0 2.5rem;
+    }
+    .container-2{
+        display: none;
+    }
+    .button-quote{
+        display: none;
+    }    
+    .button-talk{
+        display: none;
+    }
+    .button-menu{
+        display: block;
+        height: 2.5rem;
+        border-radius: 5rem;
+        background-color: #ff8142;
+        border: none;
+        color: white;
+        width: 50%;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .container-3{
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .our-story-title{
+        letter-spacing: 0.1rem;
+        font-size: 13px;
+    }
+    .our-solutions-title{
+        letter-spacing: 0.1rem;
+        font-size: 13px;
+    }
+    .our-clients-title{
+        letter-spacing: 0.1rem;
+        font-size: 13px;
+    }
+    .button-quote{
+        width: auto;
+        width: 45%;
+        font-size: 12px;
+    }
+    .button-talk{
+        width: auto;
+        width: 45%;
+        font-size: 12px;
+    }
+}
 
   
