@@ -19,14 +19,6 @@ const Header: React.FC = () => {
     <>   
       <div className='main-container'>
         <div className='container'>
-          <div className='namespace'>
-            <div className='vetra-hover'>
-              <p className='vetra-name'>V</p>
-              <p className='vetra-letter'>E</p>
-              <p className='vetra-name-2'>TRA</p>
-              <p className='vetra-letter'>.</p>
-            </div>
-          </div>
           <div className='optionspace'>
             <p className='option-vetra'>SERVICES</p>
             <p className='option-vetra'>OUR CLIENTS</p>

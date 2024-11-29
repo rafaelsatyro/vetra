@@ -4,7 +4,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
     background-color:grey  ;
 }
-/* Estilo global para o container principal */
+/* Estilo global para o container principal */ 
 .container {
     height: 100vh; /* Altura total da tela */
     display: flex;
@@ -14,8 +14,108 @@ html, body {
     background-size: cover; /* Faz a imagem preencher o container */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Não repete a imagem */
-  }
-  
+}
+.container-body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.5;
+    align-items: center;
+    flex-direction: row;
+}  
+.vetra-container-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+.vetra-container-1:hover{
+    transform: scale(1.1);
+}
+.vetra-logo{
+    display: flex;
+    height: 2rem;
+}
+.vetra-title{
+    display: flex;
+    font-weight: bold;
+    
+    color: #ff8142;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.5;
+}
+.our-story-title{
+    display: flex;
+    cursor: pointer;
+    color: #ff8142;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    transition: transform 0.3s ease; 
+}
+.our-solutions-title{
+    display: flex;
+    cursor: pointer;
+    color: #ff8142;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    transition: transform 0.3s ease; 
+}
+.our-clients-title{
+    display: flex;
+    cursor: pointer;
+    color: #ff8142;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    transition: transform 0.3s ease; 
+}
+h5:hover{
+    transform: scale(1.1);
+}
+.button-quote{
+    display: flex;
+    height: 40px;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #E8E8E8;
+    border: none;
+    color: gray;
+    transition: transform 0.3s ease; 
+}
+.button-talk{
+    display: flex;
+    height: 40px;
+    border: none;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #ff8142;
+    color: white;
+    transition: transform 0.3s ease; 
+}
+button:hover{
+    transform: scale(1.1);
+}
   
 
   
