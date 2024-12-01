@@ -1,5 +1,8 @@
 import './Styles.css'
 import idea from '../../assets/idea.png'
+import rocket from '../../assets/rocket.png'
+import plan from '../../assets/plan.png'
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
 
 function Footer() {
@@ -21,7 +24,7 @@ function Footer() {
       <div className='section-2'>
         <div className='content-2'>
           <div className='logo-content-2'>
-            <img src={idea} alt="idea" className='idea-logo' />
+            <img src={plan} alt="idea" className='idea-logo' />
           </div>
           <div className='container-content-2'>
               <h2 className='container-title-2'>BUILD STRATEGIES</h2>
@@ -33,7 +36,7 @@ function Footer() {
       <div className='section-3'>
         <div className='content-3'>
           <div className='logo-content-3'>
-            <img src={idea} alt="idea" className='idea-logo' />
+            <img src={rocket} alt="idea" className='idea-logo' />
           </div>
           <div className='container-content-3'>
             <h2 className='container-title-3'>DO THE V</h2>

@@ -4,6 +4,12 @@ html, body {
     font-family: 'Poppins', sans-serif;
     background-color:grey  ;
 }
+Link{
+    text-decoration: none;
+}
+a{
+    text-decoration: none; 
+}
 /* Estilo global para o container principal */ 
 .container {
     display: flex;
@@ -53,7 +59,7 @@ html, body {
 .container-2{
     display: flex;
     justify-content: space-around;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 .container-3{
     display: flex;
@@ -65,7 +71,7 @@ html, body {
     cursor: pointer;
     color: #ff8142;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
     transition: transform 0.3s ease; 
 }
 .our-solutions-title{
@@ -73,7 +79,7 @@ html, body {
     cursor: pointer;
     color: #ff8142;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
     transition: transform 0.3s ease; 
 }
 .our-clients-title{
@@ -81,7 +87,7 @@ html, body {
     cursor: pointer;
     color: #ff8142;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
     transition: transform 0.3s ease; 
 }
 h5:hover{
@@ -125,7 +131,8 @@ h5:hover{
     flex-direction: column;
     color: #ff8142;
     font-weight: 400;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 .grow-title{
     color: #ff8142;
@@ -134,6 +141,7 @@ h5:hover{
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0;
 }
 .contact-us-button{
     background-color: #ff8142;
